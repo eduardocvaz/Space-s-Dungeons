@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0461980e0c29f71a0b0132595ae86ebc, type: 3}
+  m_Name: ossos
+  m_EditorClassIdentifier: 
+  itemName: Ossos
+  itemDes: So ossos (como vou saber de quem sao?)
+  itemSprite: {fileID: 7210400989366224715, guid: dc9d8acfeb7c4f0a2948f7922d9bc578,
+    type: 3}
+  itemPrice: 0
