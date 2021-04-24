@@ -22,9 +22,10 @@ public class Enemy : MonoBehaviour {
         StartCoroutine(KnockCo(myRigidbody, knockTime));
     }
 
+
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
     {
-        if (myRigidbody != null)
+        if (myRigidbody != null && currentState != EnemyState.stagger)
         {
             yield return new WaitForSeconds(knockTime);
             myRigidbody.velocity = Vector2.zero;

@@ -2,13 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState
+{
+    walk,
+    attack,
+    interact,
+    idle,
+    stagger
+}
 public class Player : MonoBehaviour
 {
-    public enum PlayerState
-    {
-        walk,
-        attack
-    }
+
     public Animator anim;
     public float speed;
     public VectorValue startingPosition;
@@ -17,6 +21,7 @@ public class Player : MonoBehaviour
     private  Vector3 movement;
 
     void Start() {
+        currentState = PlayerState.walk;
         myRigidbody = GetComponent<Rigidbody2D>();
         transform.position = startingPosition.initialValue;
         anim.SetFloat("Horizontal", 0);
@@ -29,7 +34,8 @@ public class Player : MonoBehaviour
             movement.x = Input.GetAxisRaw("Horizontal");
             movement.y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetButtonDown("Attack") && currentState != PlayerState.attack)
+        if (Input.GetButtonDown("Attack") && currentState != PlayerState.attack 
+        && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
         }
@@ -65,5 +71,16 @@ public class Player : MonoBehaviour
     void MoveCharacter(){
         movement.Normalize();
         myRigidbody.MovePosition(transform.position + movement * speed * Time.deltaTime);
+    }
+    public void Knock(float knockTime){
+        StartCoroutine(KnockCo(knockTime));
+    }
+    private IEnumerator KnockCo(float knockTime){
+        if (myRigidbody != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            myRigidbody.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+        }
     }
 }

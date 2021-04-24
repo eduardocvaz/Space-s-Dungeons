@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{30ae50fe-7e8c-b8ac-dfbe-0931de18f02d}</ProjectGuid>
+    <ProjectGuid>{975352c2-3e86-c9d9-1bbe-411d5eb80341}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>TextToTMP.Editor</AssemblyName>
@@ -241,7 +241,7 @@
         <HintPath>/home/eduardovaz/Unity/Hub/Editor/2019.4.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>/home/eduardovaz/Unity/Hub/Editor/2019.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -598,19 +598,19 @@
         <HintPath>/home/eduardovaz/Unity/Hub/Editor/2019.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/home/eduardovaz/Space&apos;s Dungeons/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/home/eduardovaz/Programação/Unity/Space-s-Dungeons/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
