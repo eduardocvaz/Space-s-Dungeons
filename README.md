@@ -33,7 +33,7 @@ artigos para venda.
 Lista das características principais do jogo 
 --------------------------------------------
 
-Single-Player:
+**Single-Player:**
 Space's Dungeons sera desenvolvido sobre uma concepção
 single-player
 
