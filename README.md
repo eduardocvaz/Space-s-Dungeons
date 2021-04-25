@@ -30,16 +30,18 @@ girar em torno de um(a) personagem principal que herdou uma loja de
 artigos extraterrestres do avô, e a loja irá falir se não conseguir mais
 artigos para venda.
 
-Lista das características principais do jogo {#aabea89a-0cb0-4a34-bda4-a5cf6e5e596a}
+Lista das características principais do jogo 
 --------------------------------------------
 
-**Single-Player:**Space's Dungeons sera desenvolvido sobre uma concepção
+Single-Player:
+Space's Dungeons sera desenvolvido sobre uma concepção
 single-player
 
 Gráficos em duas dimensões (2D) com Perspectiva
 top-down
 
-**Cenários Futurísticos:**Space's Dungeons se passara no futuro onde a
+**Cenários Futurísticos:**
+Space's Dungeons se passara no futuro onde a
 tecnologia avançou ao ponto de viagens entre os planetas é possível.
 
 Plataforma-alvo: 
