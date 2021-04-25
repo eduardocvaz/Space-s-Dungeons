@@ -45,8 +45,10 @@
      <Compile Include="Assets\Scripts\Monster\Player.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\SceneTransition.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObject\FloatValue.cs" />
      <Compile Include="Assets\Scripts\VectorValue.cs" />
      <Compile Include="Assets\Scripts\invetory\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\invetory\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\invetory\GameManager.cs" />
      <Compile Include="Assets\Scripts\invetory\Item.cs" />
      <Compile Include="Assets\Scripts\invetory\ItemButton.cs" />

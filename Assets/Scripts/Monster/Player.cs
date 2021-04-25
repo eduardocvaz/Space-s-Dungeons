@@ -39,7 +39,7 @@ public class Player : MonoBehaviour
         {
             StartCoroutine(AttackCo());
         }
-        else if (currentState == PlayerState.walk)
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
@@ -81,6 +81,7 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(knockTime);
             myRigidbody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
+            myRigidbody.velocity = Vector2.zero;    
         }
     }
 }
