@@ -12,7 +12,7 @@ public class PlayButton : MonoBehaviour
     public void PlayGame()
     {
         playerStorage.initialValue = playerPosition;
-        SceneManager.LoadScene(sceneToLoad);
+        SceneManager.LoadScene("Load");
     }
     public void Quit()
     {

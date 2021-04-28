@@ -39,6 +39,8 @@
      <Compile Include="Assets\Assets\Items Scene\NewBehaviourScript.cs" />
      <Compile Include="Assets\Assets\Items Scene\pote.cs" />
      <Compile Include="Assets\PlayButton.cs" />
+     <Compile Include="Assets\Scripts\HeartManager.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Monster\Enemy.cs" />
      <Compile Include="Assets\Scripts\Monster\Knockback.cs" />
      <Compile Include="Assets\Scripts\Monster\Log.cs" />
@@ -46,6 +48,8 @@
      <Compile Include="Assets\Scripts\Player\PlayerHit.cs" />
      <Compile Include="Assets\Scripts\SceneTransition.cs" />
      <Compile Include="Assets\Scripts\ScriptableObject\FloatValue.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObject\SignalSender.cs" />
+     <Compile Include="Assets\Scripts\SignalListener.cs" />
      <Compile Include="Assets\Scripts\VectorValue.cs" />
      <Compile Include="Assets\Scripts\invetory\Destroyer.cs" />
      <Compile Include="Assets\Scripts\invetory\DontDestroy.cs" />

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
@@ -19,6 +20,8 @@ public class Player : MonoBehaviour
     public PlayerState currentState;
     private Rigidbody2D myRigidbody;    
     private  Vector3 movement;
+    public FloatValue currentHealth;
+    public SignalSender playerHealthSignal;
 
     void Start() {
         currentState = PlayerState.walk;
@@ -72,8 +75,19 @@ public class Player : MonoBehaviour
         movement.Normalize();
         myRigidbody.MovePosition(transform.position + movement * speed * Time.deltaTime);
     }
-    public void Knock(float knockTime){
-        StartCoroutine(KnockCo(knockTime));
+    public void Knock(float knockTime,float damage){
+
+        currentHealth.RuntimeValue -= damage;
+        playerHealthSignal.Raise();
+        if (currentHealth.RuntimeValue > 0) 
+        {
+            StartCoroutine(KnockCo(knockTime));
+
+        }else
+        {
+            SceneManager.LoadScene("SeFudeu");
+        }
+
     }
     private IEnumerator KnockCo(float knockTime){
         if (myRigidbody != null)

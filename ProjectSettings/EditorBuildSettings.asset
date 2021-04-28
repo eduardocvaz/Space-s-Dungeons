@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cena 3.unity
     guid: e64b0800ad2c314e5a2d9e08c14baae7
+  - enabled: 1
+    path: Assets/Scenes/SeFudeu.unity
+    guid: 7ffb8ff9e1dfdc1c6b8050f685181c50
+  - enabled: 1
+    path: Assets/Scenes/Load.unity
+    guid: a8c56d8f5ee58917dbfca1f4c1269985
   m_configObjects: {}
