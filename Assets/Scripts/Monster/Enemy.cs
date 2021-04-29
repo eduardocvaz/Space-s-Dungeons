@@ -17,9 +17,16 @@ public class Enemy : MonoBehaviour {
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+    public LootTable thisLoot;
+    public Frequencia dungeonfrequency;
+    public int indentificador;
 
     private void Awake() {
         health = maxHealth.initialValue;
+        if (dungeonfrequency.estado[indentificador]==false)
+        {
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void TakeDamage(float damage){
@@ -27,8 +34,21 @@ public class Enemy : MonoBehaviour {
         if (health <= 0)
         {
             this.gameObject.SetActive(false);
+            MakeLoot();
+            dungeonfrequency.estado[indentificador]=false;
         }
     }
+    private void MakeLoot(){
+        if (thisLoot != null)
+        {
+            PickUpItem current = thisLoot.LootItem();
+            if (current != null)
+            {
+                Instantiate(current.gameObject, transform.position, Quaternion.identity);
+            }
+        }
+    }
+
     public void Knock(Rigidbody2D myRigidbody, float knockTime,float damage)
     {
         StartCoroutine(KnockCo(myRigidbody, knockTime));

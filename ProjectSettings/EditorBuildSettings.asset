@@ -38,4 +38,31 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Load.unity
     guid: a8c56d8f5ee58917dbfca1f4c1269985
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/LOB.unity
+    guid: 0e0ce3d44e5c9b3418fc7d697495f1d8
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/0.unity
+    guid: 37ea22a52177388eb9ce89af4dfaf109
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/1.unity
+    guid: 29ad10fd78d19cc21b0d8011b4cb40c7
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/2.unity
+    guid: 31c200da1193149c095fb9e9ca4e427c
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/3.unity
+    guid: fe828eb623d11aba3a845dae190d43a0
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/6.unity
+    guid: 86e21b021cfea53899d3883c1adc49f6
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/7.unity
+    guid: 55c6ff6cca7bf8291903d60187e0d59d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/8.unity
+    guid: 2cc4df4e625b02b0ba1e4b27b0f0ba34
+  - enabled: 1
+    path: Assets/Scenes/Dungeon1/BOSS.unity
+    guid: 22af4c5a66e9e8b06961031729c2175c
   m_configObjects: {}

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +11,7 @@ public class FloatValue : ScriptableObject, ISerializationCallbackReceiver
     public float RuntimeValue;
 
     public void OnAfterDeserialize(){
-        RuntimeValue=initialValue;
+        RuntimeValue= initialValue;
     }
     public void OnBeforeSerialize(){
 

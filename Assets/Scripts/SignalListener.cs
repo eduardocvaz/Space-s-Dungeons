@@ -16,7 +16,7 @@ public class SignalListener : MonoBehaviour
     private void OnEnable() {
         signal.RegisterListener(this);
     }
-    private void OnDesable(){
+    private void OnDisable(){
         signal.DeRegisterListener(this);
     }
 
